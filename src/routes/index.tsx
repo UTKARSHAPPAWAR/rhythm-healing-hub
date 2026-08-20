@@ -166,20 +166,21 @@ function Index() {
           />
           <div
             aria-hidden="true"
-            className="absolute inset-0 bg-background/35 backdrop-blur-[1px]"
+            className="absolute inset-0 bg-background/72 backdrop-blur-[2px]"
           />
           <div className="relative mx-auto max-w-3xl px-6 py-20 text-center">
             <Reveal>
-              <p className="text-xs uppercase tracking-[0.32em] text-primary/70">
+              <p className="text-xs font-medium uppercase tracking-[0.32em] text-sage">
                 Holistic Energy Healing with Dr. Vaishali
               </p>
               <h1 className="mt-6 font-display text-5xl text-primary sm:text-6xl md:text-7xl">
                 Raise Yourself to Help Mankind
               </h1>
-              <p className="mx-auto mt-6 max-w-xl text-base text-foreground/80 sm:text-lg">
+              <p className="mx-auto mt-6 max-w-xl text-base text-foreground sm:text-lg">
                 Rhythm Healing helps you raise your inner vibration and return to holistic
                 well-being — gently, at your own pace, in a space that is entirely yours.
               </p>
+
               <a
                 href="#contact"
                 className="mt-10 inline-block rounded-full bg-primary px-8 py-3.5 text-sm font-medium tracking-wide text-primary-foreground shadow-[var(--shadow-soft)] transition-transform hover:-translate-y-0.5"

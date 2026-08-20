@@ -45,39 +45,40 @@
 
 :root {
   --radius: 1.25rem;
-  --background: oklch(0.985 0.008 90);
-  --foreground: oklch(0.32 0.045 320);
+  --background: oklch(0.982 0.012 85);
+  --foreground: oklch(0.24 0.03 250);
   --card: oklch(1 0 0);
-  --card-foreground: oklch(0.32 0.045 320);
+  --card-foreground: oklch(0.24 0.03 250);
   --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.32 0.045 320);
-  --primary: oklch(0.44 0.062 330);
-  --primary-foreground: oklch(0.985 0.008 90);
-  --secondary: oklch(0.93 0.03 150);
-  --secondary-foreground: oklch(0.36 0.05 155);
-  --muted: oklch(0.955 0.014 85);
-  --muted-foreground: oklch(0.53 0.028 320);
-  --accent: oklch(0.9 0.045 305);
-  --accent-foreground: oklch(0.36 0.055 330);
+  --popover-foreground: oklch(0.24 0.03 250);
+  --primary: oklch(0.38 0.075 205);
+  --primary-foreground: oklch(0.985 0.01 85);
+  --secondary: oklch(0.93 0.04 195);
+  --secondary-foreground: oklch(0.3 0.06 205);
+  --muted: oklch(0.955 0.018 85);
+  --muted-foreground: oklch(0.44 0.025 250);
+  --accent: oklch(0.9 0.055 55);
+  --accent-foreground: oklch(0.32 0.07 45);
   --destructive: oklch(0.577 0.245 27.325);
   --destructive-foreground: oklch(0.985 0.008 90);
-  --border: oklch(0.9 0.02 320);
-  --input: oklch(0.9 0.02 320);
-  --ring: oklch(0.62 0.05 330);
+  --border: oklch(0.88 0.022 210);
+  --input: oklch(0.88 0.022 210);
+  --ring: oklch(0.5 0.08 205);
 
-  --lavender: oklch(0.85 0.06 305);
-  --mint: oklch(0.9 0.05 160);
-  --sand: oklch(0.95 0.025 85);
-  --sage: oklch(0.53 0.05 155);
-  --plum: oklch(0.44 0.062 330);
+  --lavender: oklch(0.86 0.06 250);
+  --mint: oklch(0.89 0.06 180);
+  --sand: oklch(0.94 0.04 75);
+  --sage: oklch(0.42 0.07 175);
+  --plum: oklch(0.38 0.075 205);
 
   --gradient-calm: linear-gradient(
     135deg,
-    color-mix(in oklab, var(--lavender) 70%, white),
-    color-mix(in oklab, var(--sand) 80%, white) 45%,
-    color-mix(in oklab, var(--mint) 70%, white)
+    color-mix(in oklab, var(--mint) 60%, white),
+    color-mix(in oklab, var(--sand) 70%, white) 50%,
+    color-mix(in oklab, var(--lavender) 55%, white)
   );
 }
+
 
 @layer base {
   * {
