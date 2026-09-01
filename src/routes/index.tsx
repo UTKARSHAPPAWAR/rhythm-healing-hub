@@ -171,7 +171,7 @@ function Index() {
           <div className="relative mx-auto max-w-3xl px-6 py-20 text-center">
             <Reveal>
               <p className="text-xs font-medium uppercase tracking-[0.32em] text-sage">
-                Holistic Energy Healing with Dr. Vaishali
+                Holistic Energy Healing with Dr. Vaishali Joshi
               </p>
               <h1 className="mt-6 font-display text-5xl text-primary sm:text-6xl md:text-7xl">
                 Raise Yourself to Help Mankind
