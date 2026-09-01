@@ -26,7 +26,7 @@ import aboutImage from "@/assets/about-rhythm.jpg";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Rhythm Healing | Energy Healing & Holistic Wellness by Dr. Vaishali" },
+      { title: "Rhythm Healing | Energy Healing & Holistic Wellness by Dr. Vaishali Joshi" },
       {
         name: "description",
         content:
