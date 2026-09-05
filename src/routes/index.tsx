@@ -20,19 +20,19 @@ import {
   Clock,
 } from "lucide-react";
 import { Reveal } from "@/components/Reveal";
-import heroImage from "@/assets/hero-rhythm.jpg";
-import aboutImage from "@/assets/about-rhythm.jpg";
+import heroImage from "@/assets/hero-Rythm.jpg";
+import aboutImage from "@/assets/about-Rythm.jpg";
 
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Rhythm Healing | Energy Healing & Holistic Wellness by Dr. Vaishali Joshi" },
+      { title: "Rythm Healing | Energy Healing & Holistic Wellness by Dr. Vaishali Joshi" },
       {
         name: "description",
         content:
-          "Rhythm Healing offers energy healing, counselling, Theta Healing, EFT and inner child healing with Dr. Vaishali. Raise Yourself to Help Mankind.",
+          "Rythm Healing offers energy healing, counselling, Theta Healing, EFT and inner child healing with Dr. Vaishali. Raise Yourself to Help Mankind.",
       },
-      { property: "og:title", content: "Rhythm Healing | Holistic Energy Healing" },
+      { property: "og:title", content: "Rythm Healing | Holistic Energy Healing" },
       {
         property: "og:description",
         content:
@@ -45,9 +45,9 @@ export const Route = createFileRoute("/")({
   component: Index,
 });
 
-const WHATSAPP = "https://wa.me/919999999999";
-const PHONE = "+91 99999 99999";
-const EMAIL = "hello@rhythmhealing.in";
+const WHATSAPP = "https://wa.me/919152912579";
+const PHONE = "+91 91529 12579";
+const EMAIL = "hello@Rythmhealing.in";
 
 const navLinks = [
   { label: "About", href: "#about" },
@@ -59,52 +59,52 @@ const navLinks = [
 
 const services = [
   {
-    icon: Sparkles,
-    name: "Healing Modality Combination",
-    description:
-      "An integrative session that weaves together several healing techniques, chosen intuitively for where you are today.",
-    benefits: "Deeper transformation, faster release of stuck energy, whole-person balance.",
-    suited: "Those who have tried single therapies and are ready for a fuller shift.",
-  },
-  {
     icon: MessageCircleHeart,
-    name: "Private Counselling",
+    name: "Private Counselling - Individual/Family",
     description:
-      "Gentle one-on-one conversations that hold space for what you are carrying, without judgement.",
+      "Gentle conversations that hold space for you which are navigating you to the right solution",
     benefits: "Emotional clarity, healthier coping, renewed sense of direction.",
-    suited: "Anyone navigating stress, transitions or long-held confusion.",
-  },
-  {
-    icon: Users,
-    name: "Family Constellation Therapy",
-    description:
-      "A quiet, revealing process that brings hidden family dynamics into the light so they can soften.",
-    benefits: "Healing of inherited patterns, restored harmony in relationships.",
-    suited: "Families and individuals feeling repeating relational patterns.",
+    suited: "Anyone struggling through stress, transitions or long-held confusion.",
   },
   {
     icon: HandHeart,
-    name: "EFT (Emotional Freedom Technique)",
+    name: "EFT (Emotional Freedom Tapping) Technique",
     description:
-      "Guided tapping on gentle acupressure points to let stored emotional charge move through and out.",
+      "Guided tapping on gentle designated points to let stored negative emotional charge move through and out an create space for positivity.",
     benefits: "Relief from anxiety, calmer nervous system, lighter emotional load.",
     suited: "People seeking a practical, self-usable tool for daily calm.",
-  },
-  {
-    icon: Brain,
-    name: "Theta Healing",
-    description:
-      "A meditative technique that reaches subconscious beliefs shaping your choices and self-worth.",
-    benefits: "Positive belief change, expanded confidence, aligned decisions.",
-    suited: "Those feeling blocked despite doing all the outer work.",
   },
   {
     icon: Baby,
     name: "Inner Child Healing",
     description:
-      "A tender reconnection with the younger part of you that still waits to be heard and comforted.",
+      "Reparenting your wounded inner child that still waits to be heard and comforted.",
     benefits: "Emotional balance, self-compassion, healthier boundaries.",
-    suited: "Anyone carrying early wounds into adult relationships.",
+    suited: "Anyone carrying early wounds into adult life and relationships.",
+  },
+  {
+    icon: Users,
+    name: "Family Constellation Therapy",
+    description:
+      "Revealing energetic roleplay that brings hidden family dynamics into the light to achieve balance and alignment.",
+    benefits:"Healing of negative patterns, restored harmony in relationships and achieving balance in the family.",
+    suited: "Families and individuals feeling stuck in pain and sufferings.",
+  },
+  {
+    icon: Brain,
+    name: "Theta Healing",
+    description:
+      "Healing at the level of creators plane (7th plane) of consciousness through meditation",
+    benefits: "Positive belief change, needful downloads for healing and chakra healing",
+    suited: "Those feeling blocked despite doing all the outer work.",
+  },
+  {
+    icon: Sparkles,
+    name: "Healing Modality Combination",
+    description:
+      "An integrated session that weaves together several healing techniques, chosen intuitively for where you are today.",
+    benefits:"Deeper transformation, faster release of stuck energy, whole-person balance.",
+    suited:"Those who have tried single therapies and are ready for a fuller shift.",
   },
 ];
 
@@ -133,7 +133,7 @@ function Index() {
               <Leaf className="h-4 w-4 text-plum" strokeWidth={1.5} />
             </span>
             <span className="font-display text-xl tracking-tight text-primary">
-              Rhythm Healing
+              Rythm Healing
             </span>
           </a>
           <ul className="hidden items-center gap-7 text-sm text-muted-foreground md:flex">
@@ -174,10 +174,10 @@ function Index() {
                 Holistic Energy Healing with Dr. Vaishali Joshi
               </p>
               <h1 className="mt-6 font-display text-5xl text-primary sm:text-6xl md:text-7xl">
-                Raise Yourself to Help Mankind
+                RYTHM - Raise Yourself to Help Mankind
               </h1>
               <p className="mx-auto mt-6 max-w-xl text-base text-foreground sm:text-lg">
-                Rhythm Healing helps you raise your inner vibration and return to holistic
+                Rythm Healing helps you raise your inner vibration and return to holistic
                 well-being — gently, at your own pace, in a space that is entirely yours.
               </p>
 
@@ -206,13 +206,13 @@ function Index() {
             </Reveal>
             <Reveal delay={120}>
               <h2 className="font-display text-4xl text-primary sm:text-5xl">
-                About Rhythm Healing
+                About Rythm Healing
               </h2>
               <div className="mt-6 space-y-5 text-muted-foreground">
                 <p>
-                  Rhythm Healing began with a simple belief: every person carries an inner
-                  rhythm, and healing is the quiet work of returning to it. Dr. Vaishali holds
-                  space for that return — with patience, warmth and deep respect for your story.
+                  Rythm Healing began with a simple belief: every person can help themselves if they have the right guidance and tools. 
+                  Dr. Vaishali Joshi holds space for that healing and facilitates with patience, warmth and deep respect for your story.
+                  It is all about acceptance, understanding, and alignment.
                 </p>
                 <p>
                   Energy healing works where words often cannot reach. By easing the emotional
@@ -276,7 +276,7 @@ function Index() {
         <section id="why-us" className="mx-auto max-w-5xl px-6 py-24 sm:py-32">
           <Reveal className="mx-auto max-w-2xl text-center">
             <h2 className="font-display text-4xl text-primary sm:text-5xl">
-              Why Choose Rhythm Healing
+              Why Choose Rythm Healing
             </h2>
           </Reveal>
           <ul className="mt-14 grid grid-cols-2 gap-5 md:grid-cols-3 md:gap-7">
@@ -301,11 +301,11 @@ function Index() {
             </p>
             <p className="mt-3 text-muted-foreground">
               Only a limited number of appointments are taken each week, so every session stays
-              unhurried and fully focused on you.
+              unhurried and fully focused on you. Once you reach out, you can expect to hear back within 24 hours.
             </p>
             <div className="mt-8 inline-flex items-center gap-2 rounded-full bg-card/80 px-5 py-2.5 text-sm text-muted-foreground">
               <Clock className="h-4 w-4 text-sage" aria-hidden="true" />
-              Sat &amp; Sun, 9 AM – 6 PM · Weekdays, 6 PM – 9 PM
+              Sat &amp; Sun, 9 AM – 6 PM (By Prior Appointments) · Weekdays, 6 PM – 9 PM (By Prior Appointments)
             </div>
             <div className="mt-9">
               <a
@@ -334,7 +334,7 @@ function Index() {
               { icon: Phone, label: "Mobile", value: PHONE, href: `tel:${PHONE.replace(/\s/g, "")}` },
               { icon: MessageCircleHeart, label: "WhatsApp", value: "Chat with us", href: WHATSAPP },
               { icon: Mail, label: "Email", value: EMAIL, href: `mailto:${EMAIL}` },
-              { icon: MapPin, label: "Location", value: "Pune, Maharashtra, India" },
+              { icon: MapPin, label: "Location", value: "Thane, Maharashtra, India" },
             ].map((c, i) => (
               <Reveal as="li" key={c.label} delay={i * 70}>
                 <div className="card-soft flex h-full items-start gap-4 rounded-[1.5rem] p-6">
@@ -371,7 +371,7 @@ function Index() {
       <footer className="surface-calm border-t border-border/60">
         <div className="mx-auto grid max-w-6xl gap-8 px-6 py-14 text-sm text-muted-foreground sm:grid-cols-3">
           <div>
-            <p className="font-display text-2xl text-primary">Rhythm Healing</p>
+            <p className="font-display text-2xl text-primary">Rythm Healing</p>
             <p className="mt-2">Raise Yourself to Help Mankind</p>
           </div>
           <div className="space-y-1">
@@ -402,7 +402,7 @@ function Index() {
           </div>
         </div>
         <p className="border-t border-border/60 px-6 py-6 text-center text-xs text-muted-foreground">
-          © {new Date().getFullYear()} Rhythm Healing. All rights reserved.
+          © {new Date().getFullYear()} Rythm Healing. All rights reserved.
         </p>
       </footer>
     </div>
