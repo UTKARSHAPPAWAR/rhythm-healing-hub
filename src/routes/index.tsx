@@ -20,8 +20,8 @@ import {
   Clock,
 } from "lucide-react";
 import { Reveal } from "@/components/Reveal";
-import heroImage from "@/assets/hero-Rythm.jpg";
-import aboutImage from "@/assets/about-Rythm.jpg";
+import heroImage from "@/assets/hero-rhythm.jpg";
+import aboutImage from "@/assets/about-rhythm.jpg";
 
 export const Route = createFileRoute("/")({
   head: () => ({
