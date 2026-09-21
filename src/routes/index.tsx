@@ -249,59 +249,49 @@ function Index() {
           </div>
         </section>
 
-        <ul className="mt-14 grid gap-7 sm:grid-cols-2 lg:grid-cols-6">
-  {services.map((s, i) => (
-    <Reveal
-      as="li"
-      key={s.name}
-      delay={i * 70}
-      className={
-        i < 6
-          ? "lg:col-span-2"
-          : i === 6
-            ? "lg:col-start-2 lg:col-span-2"
-            : "lg:col-span-2"
-      }
-    >
-      <article className="card-soft h-full rounded-[1.75rem] p-7">
-        <span
-          aria-hidden="true"
-          className="flex h-12 w-12 items-center justify-center rounded-2xl bg-accent/60"
-        >
-          <s.icon className="h-5 w-5 text-plum" strokeWidth={1.5} />
-        </span>
-
-        <h3 className="mt-5 font-display text-2xl text-primary">
-          {s.name}
-        </h3>
-
-        <p className="mt-3 text-sm text-muted-foreground">
-          {s.description}
-        </p>
-
-        <dl className="mt-5 space-y-3 border-t border-border/70 pt-5 text-sm">
-          <div>
-            <dt className="text-xs uppercase tracking-[0.18em] text-sage">
-              Benefits
-            </dt>
-            <dd className="mt-1 text-muted-foreground">
-              {s.benefits}
-            </dd>
+{/* Services */}
+        <section id="services" className="surface-calm py-24 sm:py-32">
+          <div className="mx-auto max-w-6xl px-6">
+            <Reveal className="mx-auto max-w-2xl text-center">
+              <h2 className="font-display text-4xl text-primary sm:text-5xl">
+                Our Healing Services
+              </h2>
+              <p className="mt-4 text-muted-foreground">
+                Choose a path that speaks to you, or let us find the right combination together.
+              </p>
+            </Reveal>
+            <ul className="mt-14 grid gap-7 sm:grid-cols-2 lg:grid-cols-3">
+              {services.map((s, i) => (
+                <Reveal as="li" key={s.name} delay={i * 70}>
+                  <article className="card-soft h-full rounded-[1.75rem] p-7">
+                    <span
+                      aria-hidden="true"
+                      className="flex h-12 w-12 items-center justify-center rounded-2xl bg-accent/60"
+                    >
+                      <s.icon className="h-5 w-5 text-plum" strokeWidth={1.5} />
+                    </span>
+                    <h3 className="mt-5 font-display text-2xl text-primary">{s.name}</h3>
+                    <p className="mt-3 text-sm text-muted-foreground">{s.description}</p>
+                    <dl className="mt-5 space-y-3 border-t border-border/70 pt-5 text-sm">
+                      <div>
+                        <dt className="text-xs uppercase tracking-[0.18em] text-sage">
+                          Benefits
+                        </dt>
+                        <dd className="mt-1 text-muted-foreground">{s.benefits}</dd>
+                      </div>
+                      <div>
+                        <dt className="text-xs uppercase tracking-[0.18em] text-sage">
+                          Suitable for
+                        </dt>
+                        <dd className="mt-1 text-muted-foreground">{s.suited}</dd>
+                      </div>
+                    </dl>
+                  </article>
+                </Reveal>
+              ))}
+            </ul>
           </div>
-
-          <div>
-            <dt className="text-xs uppercase tracking-[0.18em] text-sage">
-              Suitable for
-            </dt>
-            <dd className="mt-1 text-muted-foreground">
-              {s.suited}
-            </dd>
-          </div>
-        </dl>
-      </article>
-    </Reveal>
-  ))}
-</ul>
+        </section>
         {/* Why us */}
         <section id="why-us" className="mx-auto max-w-5xl px-6 py-24 sm:py-32">
           <Reveal className="mx-auto max-w-2xl text-center">
