@@ -109,7 +109,7 @@ const services = [
     suited:"Those who have tried single therapies and are ready for a fuller shift.",
   },
   {
-    icon: Books,
+    icon: Book,
     name: "Akashic Record Reading",
     description:
       "Healing in the 5th dimension where past, present and future exist together.",
@@ -117,10 +117,10 @@ const services = [
     suited: "Anyone who is stuck with unresolved issues, unexplainable health problems & repetitive patterns.",
   },
   {
-    icon: Brain,
+    icon: Mag,
     name: "Healing through Quantum Frequency Technology",
     description:
-      "Distance healing by Quantam Healing frequencies (German based technology) by identifying the bio energetic field of a person.",
+      "Distance healing through machine using Quantum healing frequencies by identifying the bioenergetic field.",
     benefits: "Healing with bio energetic field, identification and Microcurrent frequency application, Aura reading included.",
     suited: "Healing for logical minds where science meets sprituality.",
   },
