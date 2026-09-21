@@ -6,6 +6,8 @@ import {
   HandHeart,
   Brain,
   Baby,
+  Books,
+  Mag,
   ShieldCheck,
   Leaf,
   HeartHandshake,
