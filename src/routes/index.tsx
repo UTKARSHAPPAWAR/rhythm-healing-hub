@@ -18,6 +18,8 @@ import {
   Facebook,
   Linkedin,
   Clock,
+  BookOpen,
+  Waves,
 } from "lucide-react";
 import { Reveal } from "@/components/Reveal";
 // Remove this import - import heroImage from "@/assets/hero-rhythm.jpg";
@@ -101,15 +103,7 @@ const services = [
     suited: "Those feeling blocked despite doing all the outer work.",
   },
   {
-    icon: Sparkles,
-    name: "Healing Modality Combination",
-    description:
-      "An integrated session that weaves together several healing techniques, chosen intuitively for where you are today.",
-    benefits:"Deeper transformation, faster release of stuck energy, whole-person balance.",
-    suited:"Those who have tried single therapies and are ready for a fuller shift.",
-  },
-  {
-    icon: Sparkles,
+    icon: BookOpen,
     name: "Akashic Record Reading",
     description:
       "Healing in the 5th dimension where past, present and future exist together.",
@@ -117,12 +111,20 @@ const services = [
     suited: "Anyone who is stuck with unresolved issues, unexplainable health problems & repetitive patterns.",
   },
   {
-    icon: Sparkles,
+    icon: Waves,
     name: "Healing through Quantum Frequency Technology",
     description:
       "Distance healing through machine using Quantum healing frequencies by identifying the bioenergetic field.",
     benefits: "Healing with bio energetic field, identification and Microcurrent frequency application, Aura reading included.",
     suited: "Healing for logical minds where science meets sprituality.",
+  },
+  {
+    icon: Sparkles,
+    name: "Healing Modality Combination",
+    description:
+      "An integrated session that weaves together several healing techniques, chosen intuitively for where you are today.",
+    benefits:"Deeper transformation, faster release of stuck energy, whole-person balance.",
+    suited:"Those who have tried single therapies and are ready for a fuller shift.",
   },
   
 ];
