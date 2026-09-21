@@ -6,8 +6,6 @@ import {
   HandHeart,
   Brain,
   Baby,
-  Books,
-  Mag,
   ShieldCheck,
   Leaf,
   HeartHandshake,
@@ -111,7 +109,7 @@ const services = [
     suited:"Those who have tried single therapies and are ready for a fuller shift.",
   },
   {
-    icon: Books,
+    icon: Sparkles,
     name: "Akashic Record Reading",
     description:
       "Healing in the 5th dimension where past, present and future exist together.",
@@ -119,7 +117,7 @@ const services = [
     suited: "Anyone who is stuck with unresolved issues, unexplainable health problems & repetitive patterns.",
   },
   {
-    icon: Mag,
+    icon: Sparkles,
     name: "Healing through Quantum Frequency Technology",
     description:
       "Distance healing through machine using Quantum healing frequencies by identifying the bioenergetic field.",
