@@ -111,7 +111,7 @@ const services = [
     suited:"Those who have tried single therapies and are ready for a fuller shift.",
   },
   {
-    icon: Book,
+    icon: Books,
     name: "Akashic Record Reading",
     description:
       "Healing in the 5th dimension where past, present and future exist together.",
