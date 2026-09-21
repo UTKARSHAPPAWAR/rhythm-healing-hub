@@ -49,7 +49,7 @@ export const Route = createFileRoute("/")({
 
 const WHATSAPP = "https://wa.me/919152912579";
 const PHONE = "+91 91529 12579";
-const EMAIL = "hello@Rythmhealing.in";
+const EMAIL = "rythm2579@gmail.com";
 
 const navLinks = [
   { label: "About", href: "#about" },
@@ -66,7 +66,7 @@ const services = [
     description:
       "Gentle conversations that hold space for you which are navigating you to the right solution",
     benefits: "Emotional clarity, healthier coping, renewed sense of direction.",
-    suited: "Anyone struggling through stress, transitions or long-held confusion.",
+    suited: "Anyone struggling through stress, transitions or long-held confusion, guidance for twin flame uion.",
   },
   {
     icon: HandHeart,
@@ -108,6 +108,23 @@ const services = [
     benefits:"Deeper transformation, faster release of stuck energy, whole-person balance.",
     suited:"Those who have tried single therapies and are ready for a fuller shift.",
   },
+  {
+    icon: Books,
+    name: "Akashic Record Reading",
+    description:
+      "Healing in the 5th dimension where past, present and future exist together.",
+    benefits: "Understanding the soul contracts, karmic connections & cord cutting.",
+    suited: "Anyone who is stuck with unresolved issues, unexplainable health problems & repetitive patterns.",
+  },
+  {
+    icon: Brain,
+    name: "Healing through Quantum Frequency Technology",
+    description:
+      "Distance healing by Quantam Healing frequencies (German based technology) by identifying the bio energetic field of a person.",
+    benefits: "Healing with bio energetic field, identification and Microcurrent frequency application, Aura reading included.",
+    suited: "Healing for logical minds where science meets sprituality.",
+  },
+  
 ];
 
 const highlights = [
