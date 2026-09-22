@@ -77,14 +77,14 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Rhythm Healing | Energy Healing & Holistic Wellness" },
+      { title: "Rythm Healing | Energy Healing & Holistic Wellness" },
       {
         name: "description",
         content:
-          "Holistic energy healing and wellness sessions with Dr. Vaishali at Rhythm Healing.",
+          "Holistic energy healing and wellness sessions with Dr. Vaishali at Rythm Healing.",
       },
       { name: "author", content: "Dr. Vaishali" },
-      { property: "og:title", content: "Rhythm Healing" },
+      { property: "og:title", content: "Rythm Healing" },
       {
         property: "og:description",
         content: "Holistic energy healing and wellness with Dr. Vaishali.",
