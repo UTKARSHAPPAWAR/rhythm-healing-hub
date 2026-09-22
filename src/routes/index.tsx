@@ -66,9 +66,9 @@ const services = [
     icon: MessageCircleHeart,
     name: "Private Counselling - Individual/Family",
     description:
-      "Gentle conversations that hold space for you which are navigating you to the right solution",
+      "Gentle conversations that hold space for you which are navigating you to the right solution.",
     benefits: "Emotional clarity, healthier coping, renewed sense of direction.",
-    suited: "Anyone struggling through stress, transitions or long-held confusion, guidance for twin flame uion.",
+    suited: "Anyone struggling through stress, transitions or long-held confusion, Guidance for twin flame union.",
   },
   {
     icon: HandHeart,
@@ -91,15 +91,15 @@ const services = [
     name: "Family Constellation Therapy",
     description:
       "Revealing energetic roleplay that brings hidden family dynamics into the light to achieve balance and alignment.",
-    benefits:"Healing of negative patterns, restored harmony in relationships and achieving balance in the family.",
+    benefits:"Healing of negative patterns, restored harmony in relationships and achieving balance in the family. It includes Trauma mapping, traumagram and trauma therapy.",
     suited: "Families and individuals feeling stuck in pain and sufferings.",
   },
   {
     icon: Brain,
     name: "Theta Healing",
     description:
-      "Healing at the level of creators plane (7th plane) of consciousness through meditation",
-    benefits: "Positive belief change, needful downloads for healing and chakra healing",
+      "Healing at the level of creator's plane (7th plane) of consciousness through meditation",
+    benefits: "Positive belief change, needful downloads for healing and to give chakra healing",
     suited: "Those feeling blocked despite doing all the outer work.",
   },
   {
@@ -107,7 +107,7 @@ const services = [
     name: "Akashic Record Reading",
     description:
       "Healing in the 5th dimension where past, present and future exist together.",
-    benefits: "Understanding the soul contracts, karmic connections & cord cutting.",
+    benefits: "Understanding the soul contracts, karmic connections & for doing cord cutting.",
     suited: "Anyone who is stuck with unresolved issues, unexplainable health problems & repetitive patterns.",
   },
   {
