@@ -51,7 +51,7 @@ export const Route = createFileRoute("/")({
 
 const WHATSAPP = "https://wa.me/919152912579";
 const PHONE = "+91 91529 12579";
-const EMAIL = "rythm2579@gmail.com";
+const EMAIL = "rythmhealing2579@gmail.com";
 
 const navLinks = [
   { label: "About", href: "#about" },
